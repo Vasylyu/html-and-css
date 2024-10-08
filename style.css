@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    background: #fff;
+    font-family: "Open Sans", 
+    sans-serif;
+    color: black;
+    
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1204px;
+    margin: 0 auto;
+    
+}
+
+.header {
+    padding: 46px 0;
+    margin-bottom: 73px;
+    
+}
+.navigation {
+    display: flex;
+    justify-content: right;
+    gap: 33px;
+    
+}
+.png{
+    display: flex;
+    justify-content: left;
+}
+.link1{
+    color: #f25822;
+    font-weight: 400;
+    font-size: 14px;
+}
+.link {
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.main {
+    margin-bottom: 156px;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between
+    
+}
+.content {
+    max-width: 522px;
+   
+}
+.title {
+    font-weight: 400;
+    font-size: 60px;
+    color: #000;
+    margin-bottom: 17px;
+    max-width: 522px;
+}
+.text-content {
+    font-weight: 400;
+    font-size: 20px;
+    color: #888; 
+    max-width: 466px; 
+}
+.btn-box {
+    margin-top: 37px;
+    display: flex;
+    gap: 72px;
+}
+.btn1 {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+    background: #f25822;
+    border-radius: 50px;
+    max-width: 140px;
+}
+.btn2{
+    font-weight: 400;
+    font-size: 15px;
+    color: #aaa;
+}
+.general-png {
+}
+.footer {
+    margin-bottom: 96px;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
